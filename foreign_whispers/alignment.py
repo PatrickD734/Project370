@@ -265,7 +265,7 @@ def global_align(
         for r in silence_regions:
             if r.get("label") == "silence" and r["start_s"] >= end_s - 0.1:
                 return r["end_s"] - r["start_s"]
-        return 0.0
+            return 0.0
 
     aligned, cumulative_drift = [], 0.0
 
@@ -298,3 +298,95 @@ def global_align(
         cumulative_drift += gap_shift
 
     return aligned
+
+def global_align_dp(
+    metrics: list[SegmentMetrics],
+    silence_regions: list[dict],
+    max_stretch: float=1.4,
+)-> list[AlignedSegment]:
+
+    def _silence_after (end_s: float)-> float:
+        for r in silence_regions:
+            if r.get("label") == "silence" and r["start_s"] >= end_s - 0.1:
+                return r["end_s"] - r["start_s"]
+        return 0.0
+
+    def _action_cost(action: AlignAction, m: SegmentMetrics) -> float:
+        if action == AlignAction.ACCEPT:
+            return 0.0
+        if action == AlignAction.MILD_STRETCH:
+            return min(m.predicted_stretch, max_stretch) - 1.0
+        if action == AlignAction.GAP_SHIFT:
+            return m.overflow_s * 2.0
+        if action == AlignAction.REQUEST_SHORTER:
+            return 5.0
+        return 10.0
+
+    def _available_actions(m: SegmentMetrics, gap_s: float) -> list[AlignAction]:
+        #Return all valid actions
+        actions =[]
+        sf = m.predicted_stretch
+        if sf <= 1.1:
+            actions.append(AlignAction.ACCEPT)
+        if 1.1 < sf <= 1.4:
+            actions.append(AlignAction.MILD_STRETCH)
+        if sf <= 1.8 and gap_s >= m.overflow_s:
+            actions.append(AlignAction.GAP_SHIFT)
+        if 1.8 < sf <= 2.5:
+            actions.append(AlignAction.REQUEST_SHORTER)
+        if sf > 2.5:
+            actions.append(AlignAction.FAIL)
+        #Allow mild stretch and gap shift as fallback
+        if AlignAction.MILD_STRETCH not in actions and sf > 1.1:
+            actions.append(AlignAction.MILD_STRETCH)
+        return actions if actions else [AlignAction.ACCEPT]
+
+    #Find boptimal action
+    n = len(metrics)
+    gaps = [_silence_after(m.source_end) for m in metrics]
+    all_actions = [_available_actions(m, gaps[i]) for i, m in enumerate(metrics)]
+
+    #Assign dp[i] (min_cost, best action) for segment i
+    dp = [(float("inf"), None)] * n
+    for i, m in enumerate(metrics):
+        best_cost = float("inf")
+        best_action = all_actions[i][0]
+        for action in all_actions[i]:
+            cost = _action_cost(action, m)
+            if cost < best_cost:
+                best_cost = cost
+                best_action = action
+        dp[i] = (best_cost, best_action)
+
+    #Reconstruct schedule  with chosen best action
+    aligned, cumulative_drift = [], 0.0
+    for i, m in enumerate(metrics):
+        action = dp[i][1]
+        gap_shift = 0.0
+        stretch = 1.0
+
+        if action == AlignAction.GAP_SHIFT:
+            gap_shift = m.overflow_s
+        elif action == AlignAction.MILD_STRETCH:
+            stretch = min(m.predicted_stretch, max_stretch)
+
+        sched_start = m.source_start + cumulative_drift
+        sched_end = sched_start + m.source_duration_s + gap_shift
+
+        aligned.append(AlignedSegment(
+            index = m.index,
+            original_start = m.source_start,
+            original_end = m.source_end,
+            scheduled_start = sched_start,
+            scheduled_end = sched_end,
+            text = m.translated_text,
+            action = action,
+            gap_shift_s = gap_shift,
+            stretch_factor = stretch,
+        ))
+
+        cumulative_drift += gap_shift
+    
+    return aligned
+
+

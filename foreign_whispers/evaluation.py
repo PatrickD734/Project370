@@ -51,3 +51,63 @@ def clip_evaluation_report(
         "n_translation_retries":     n_retry,
         "total_cumulative_drift_s":  round(drift, 3),
     }
+
+def dubbing_scorecard(
+    metrics: list[SegmentMetrics],
+    aligned: list[AlignedSegment],
+    align_report: dict | None = None,
+) -> dict:
+
+    """Multi-dimensional dubbing scorecard with Dimensions 
+    timing_score
+    stretch_score
+    drift_score
+    naturalness_score
+    overall_score
+    """
+    if not metrics:
+        return{
+            "timing_score": 0.0,
+            "stretch_score": 0.0,
+            "drift_score": 0.0,
+            "naturalness_score": 0.0,
+            "overall_score": 0.0,
+        }
+
+    report = align_report or clip_evaluation_report(metrics, aligned)
+
+    #Timing score evaluation
+    max_timing_error = 2.0
+    timing_score = max(0.0, 1.0 - report["mean_abs_duration_error_s"] / max_timing_error)
+
+    #Stretch score evaluation
+    stretch_score = 1.0 - report["pct_severe_stretch"] / 100.0
+
+    #Drift score evaluation
+    max_drift = 5.0
+    drift_score = max(0.0, 1.0 - abs(report["total_cumulative_drift_s"]) / max_drift)
+
+    #Naturalness score evaluation
+    rates = [
+        m.tgt_char_count / m.source_duration_s
+        for m in metrics if m.source_duration_s > 0
+    ]
+
+    if len(rates) >= 2:
+        rate_cv = _stats.stdev(rates) / max(_stats.mean(rates), 1e-6)
+        naturalness_score = max(0.0, 1.0 - rate_cv / 2.0 )
+    else:
+        naturalness_score = 1.0
+    
+    scores = [timing_score, stretch_score, drift_score, naturalness_score]
+    overall_score = _stats.mean(scores)
+
+    return{
+        "timing_score": round(timing_score, 3),
+        "stretch_score": round(stretch_score, 3),
+        "drift_score": round(drift_score, 3),
+        "naturalness_score": round(naturalness_score, 3),
+        "overall_score": round(overall_score, 3),
+    }
+
+    

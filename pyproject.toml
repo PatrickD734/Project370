@@ -26,6 +26,8 @@ dependencies = [
     "setuptools<81",
     "pyyaml>=6.0.3",
     "logfire",
+    "jupyter>=1.1.1",
+    "notebook>=7.5.5",
 ]
 
 [dependency-groups]

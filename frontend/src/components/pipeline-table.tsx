@@ -15,6 +15,7 @@ import {
   LanguagesIcon,
   Volume2Icon,
   ScissorsIcon,
+  UsersIcon,
 } from "lucide-react";
 import { useElapsed } from "@/hooks/use-elapsed";
 import type { PipelineStage, PipelineState, StageState, StudioSettings } from "@/lib/types";
@@ -27,10 +28,11 @@ const STAGES: {
   description: string;
 }[] = [
   { key: "download", label: "Download", icon: DownloadIcon, description: "Fetch video + captions from YouTube" },
-  { key: "transcribe", label: "Transcribe", icon: MicIcon, description: "Speech-to-text via Whisper" },
-  { key: "translate", label: "Translate", icon: LanguagesIcon, description: "English to Spanish translation" },
-  { key: "tts", label: "TTS", icon: Volume2Icon, description: "Text-to-speech synthesis" },
-  { key: "stitch", label: "Stitch", icon: ScissorsIcon, description: "Combine audio + video + subtitles" },
+{ key: "transcribe", label: "Transcribe", icon: MicIcon, description: "Speech-to-text via Whisper" },
+{ key: "diarize", label: "Diarize", icon: UsersIcon, description: "Speaker diarization via pyannote" },
+{ key: "translate", label: "Translate", icon: LanguagesIcon, description: "English to Spanish translation" },
+{ key: "tts", label: "TTS", icon: Volume2Icon, description: "Text-to-speech synthesis" },
+{ key: "stitch", label: "Stitch", icon: ScissorsIcon, description: "Combine audio + video + subtitles" },
 ];
 
 function statusBadge(status: string) {
@@ -106,6 +108,8 @@ export function PipelineTable({ pipelineState, settings }: PipelineTableProps) {
         return pipelineState.videoId ?? "--";
       case "transcribe":
         return "faster-whisper-medium";
+      case "diarize":
+        return "pyannote";
       case "translate":
         return "argostranslate";
       case "tts": {

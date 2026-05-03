@@ -28,6 +28,8 @@ dependencies = [
     "logfire",
     "jupyter>=1.1.1",
     "notebook>=7.5.5",
+    "pyannote-audio>=3.4.0",
+    "pyphen>=0.17.2",
 ]
 
 [dependency-groups]

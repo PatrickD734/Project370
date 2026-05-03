@@ -20,20 +20,13 @@ from enum import Enum
 
 
 def _count_syllables(text: str) -> int:
-    """Count syllables in target-language text via vowel-cluster counting.
+    """Count syllables using pyphen for accurate Spanish syllabification."""
+    import pyphen
+    dic = pyphen.Pyphen(lang="es")
+    words = text.split()
+    return max(1, sum(len(dic.positions(w)) + 1 for w in words))
 
-    Designed for Romance languages (Spanish, French, Italian, Portuguese).
-    Strips accents then counts contiguous vowel runs. Each run = one syllable.
-    Returns at least 1 for any non-empty text so the rate never divides by zero.
-    """
-    # Normalise: decompose accented chars, keep only ASCII letters + spaces
-    nfkd = unicodedata.normalize("NFKD", text.lower())
-    ascii_text = "".join(c for c in nfkd if not unicodedata.combining(c))
-    clusters = re.findall(r"[aeiou]+", ascii_text)
-    return max(1, len(clusters))
-
-
-_SYLLABLE_RATE = 4.5  # syllables per second for Romance languages
+_SYLLABLE_RATE = 3.84  # syllables per second, calibrated from Chatterbox ground truth
 
 
 def _estimate_duration(text: str) -> float:

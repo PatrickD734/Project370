@@ -2,6 +2,10 @@
 
 # This project was done as a collaboration between Patrick Durzynski and Zuhair Munawar
 
+Final_Video_Dubbing_Output
+https://drive.google.com/file/d/1MWmG9CXJRc3JbHCeK5lwRZybtpT9oP66/view
+
+
 [![License: AGPL-3.0 + Commons Clause](https://img.shields.io/badge/License-Source_Available-blue.svg)](./LICENSE)
 
 YouTube video dubbing pipeline — transcribe, translate, and dub 60 Minutes interviews into a target language.

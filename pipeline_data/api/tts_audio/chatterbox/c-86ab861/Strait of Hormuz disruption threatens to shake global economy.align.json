@@ -1,0 +1,1540 @@
+{
+  "mean_abs_duration_error_s": 2.006,
+  "pct_severe_stretch": 0.0,
+  "n_gap_shifts": 0,
+  "n_translation_retries": 0,
+  "total_cumulative_drift_s": 0.0,
+  "alignment_enabled": true,
+  "segments": [
+    {
+      "index": 0,
+      "text": "60 minutos horas extra.",
+      "target_sec": 3.8,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.78,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 1,
+      "text": "\u00bfCu\u00e1l es el peor escenario?",
+      "target_sec": 3.76,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.86,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 2,
+      "text": "Te preocupa que sea",
+      "target_sec": 4.4,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.26,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 3,
+      "text": "cerrado durante semanas y semanas y semanas",
+      "target_sec": 5.519,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.9,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 4,
+      "text": "y empiezas a ver el mundo",
+      "target_sec": 5.84,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.26,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 5,
+      "text": "la econom\u00eda realmente impactada porque",
+      "target_sec": 4.881,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.38,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 6,
+      "text": "es la sangre de la vida a cierto",
+      "target_sec": 4.56,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.86,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 7,
+      "text": "extensi\u00f3n. As\u00ed que la realidad es m\u00e1s larga",
+      "target_sec": 3.92,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.5,
+      "speed_factor": 0.893,
+      "action": "accept"
+    },
+    {
+      "index": 8,
+      "text": "que esto contin\u00faa, el mayor impacto",
+      "target_sec": 3.84,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.34,
+      "speed_factor": 0.87,
+      "action": "accept"
+    },
+    {
+      "index": 9,
+      "text": "va a tener a trav\u00e9s de industrias,",
+      "target_sec": 4.719,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.78,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 10,
+      "text": "en todas las regiones. Esta semana en 60 minutos,",
+      "target_sec": 4.799,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.58,
+      "speed_factor": 0.954,
+      "action": "accept"
+    },
+    {
+      "index": 11,
+      "text": "informamos sobre la Straight of Hormuz,",
+      "target_sec": 4.561,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.26,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 12,
+      "text": "esa v\u00eda estrecha en el sur de Ir\u00e1n",
+      "target_sec": 4.481,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.82,
+      "speed_factor": 0.852,
+      "action": "accept"
+    },
+    {
+      "index": 13,
+      "text": "costa. Conecta el rico de aceite",
+      "target_sec": 4.0,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.86,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 14,
+      "text": "pa\u00edses del Golfo P\u00e9rsico al",
+      "target_sec": 4.319,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.46,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 15,
+      "text": "el resto del mundo. Los barcos que pasan",
+      "target_sec": 4.559,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.42,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 16,
+      "text": "a trav\u00e9s de ella lleva una quinta parte del mundo",
+      "target_sec": 4.881,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.5,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 17,
+      "text": "aceite y una cantidad significativa de natural",
+      "target_sec": 5.361,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.02,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 18,
+      "text": "gas. Ahora, con ese tr\u00e1fico casi",
+      "target_sec": 5.04,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.5,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 19,
+      "text": "detenido por la guerra en Ir\u00e1n, el mundo es",
+      "target_sec": 4.959,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.5,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 20,
+      "text": "empezar a sentir el impacto de la energ\u00eda",
+      "target_sec": 5.6,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.38,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 21,
+      "text": "los mercados a las econom\u00edas nacionales. Puedes",
+      "target_sec": 5.281,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.3,
+      "speed_factor": 0.814,
+      "action": "accept"
+    },
+    {
+      "index": 22,
+      "text": "ver que hay mucho movimiento aqu\u00ed,",
+      "target_sec": 2.88,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.66,
+      "speed_factor": 0.924,
+      "action": "accept"
+    },
+    {
+      "index": 23,
+      "text": "\u00bfVerdad?",
+      "target_sec": 3.039,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 0.78,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 24,
+      "text": "> Hablamos con Matt Smith, un mercado petrolero",
+      "target_sec": 5.04,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.5,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 25,
+      "text": "analista de Kepler, que rastrea globalmente",
+      "target_sec": 5.12,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.06,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 26,
+      "text": "comercio y env\u00edo. Ha estado estudiando.",
+      "target_sec": 5.119,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.5,
+      "speed_factor": 0.879,
+      "action": "accept"
+    },
+    {
+      "index": 27,
+      "text": "movimiento de barcos en la recta de Hormuz.",
+      "target_sec": 4.96,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.14,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 28,
+      "text": "Smith nos dijo que la regi\u00f3n mueve millones",
+      "target_sec": 5.36,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.5,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 29,
+      "text": "de barriles de aceite al d\u00eda. Para la mayor\u00eda del Golfo",
+      "target_sec": 5.201,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.74,
+      "speed_factor": 0.911,
+      "action": "accept"
+    },
+    {
+      "index": 30,
+      "text": "estados, la \u00fanica manera de su aceite para",
+      "target_sec": 4.161,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.5,
+      "speed_factor": 0.841,
+      "action": "accept"
+    },
+    {
+      "index": 31,
+      "text": "llegar al mercado mundial es a trav\u00e9s de",
+      "target_sec": 4.64,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.86,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 32,
+      "text": "Estrecho. Entonces, estos suministros est\u00e1n atrapados",
+      "target_sec": 4.88,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.78,
+      "speed_factor": 0.98,
+      "action": "accept"
+    },
+    {
+      "index": 33,
+      "text": "por el conflicto. Pero saud\u00ed",
+      "target_sec": 4.56,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.58,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 34,
+      "text": "Arabia se beneficia de d\u00e9cadas de bien",
+      "target_sec": 3.279,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.78,
+      "speed_factor": 0.848,
+      "action": "accept"
+    },
+    {
+      "index": 35,
+      "text": "planificaci\u00f3n.",
+      "target_sec": 2.88,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.3,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 36,
+      "text": "> Arabia Saudita es un relativo ganador de",
+      "target_sec": 4.32,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.02,
+      "speed_factor": 0.931,
+      "action": "accept"
+    },
+    {
+      "index": 37,
+      "text": "esta situaci\u00f3n en que tiene un oleoducto",
+      "target_sec": 4.399,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.1,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 38,
+      "text": "llamado el oleoducto Este Oeste que fue",
+      "target_sec": 4.0,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.18,
+      "speed_factor": 0.795,
+      "action": "accept"
+    },
+    {
+      "index": 39,
+      "text": "construido por esta raz\u00f3n. Era",
+      "target_sec": 3.441,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.74,
+      "speed_factor": 0.796,
+      "action": "accept"
+    },
+    {
+      "index": 40,
+      "text": "preocupado por la recta de Hormuz",
+      "target_sec": 4.241,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.9,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 41,
+      "text": "siendo este punto de ahogamiento y as\u00ed",
+      "target_sec": 5.44,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.46,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 42,
+      "text": "tubo va hacia el Mar Rojo a Yanu",
+      "target_sec": 4.24,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.22,
+      "speed_factor": 0.759,
+      "action": "accept"
+    },
+    {
+      "index": 43,
+      "text": "y estamos empezando a ver las exportaciones",
+      "target_sec": 3.36,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.1,
+      "speed_factor": 1.22,
+      "action": "accept"
+    },
+    {
+      "index": 44,
+      "text": "en vez de eso. As\u00ed que...",
+      "target_sec": 3.519,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.02,
+      "speed_factor": 0.858,
+      "action": "accept"
+    },
+    {
+      "index": 45,
+      "text": "esencialmente Arabia Saudita es capaz de",
+      "target_sec": 4.32,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.38,
+      "speed_factor": 0.782,
+      "action": "accept"
+    },
+    {
+      "index": 46,
+      "text": "redirigir su crudo para poder cargar en",
+      "target_sec": 5.36,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.58,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 47,
+      "text": "el Mar Rojo mientras que los similares de Iraq,",
+      "target_sec": 5.439,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.18,
+      "speed_factor": 0.769,
+      "action": "accept"
+    },
+    {
+      "index": 48,
+      "text": "Kuwait y Qatar no tienen la capacidad",
+      "target_sec": 4.401,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.98,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 49,
+      "text": "para hacer eso. As\u00ed que tienen que cerrarse.",
+      "target_sec": 3.92,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.5,
+      "speed_factor": 0.893,
+      "action": "accept"
+    },
+    {
+      "index": 50,
+      "text": "producci\u00f3n. No es que Arabia Saudita sea",
+      "target_sec": 3.839,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.5,
+      "speed_factor": 0.912,
+      "action": "accept"
+    },
+    {
+      "index": 51,
+      "text": "capaz de mover completamente todo su",
+      "target_sec": 3.121,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.66,
+      "speed_factor": 0.852,
+      "action": "accept"
+    },
+    {
+      "index": 52,
+      "text": "y exportarlos del otro",
+      "target_sec": 4.481,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.46,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 53,
+      "text": "Del lado. Pero puede hacer casi 4",
+      "target_sec": 4.8,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.18,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 54,
+      "text": "millones de barriles al d\u00eda.",
+      "target_sec": 3.2,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.46,
+      "speed_factor": 0.769,
+      "action": "accept"
+    },
+    {
+      "index": 55,
+      "text": "> \u00bfC\u00f3mo caracterizar\u00edas lo que es?",
+      "target_sec": 3.759,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.5,
+      "speed_factor": 0.931,
+      "action": "accept"
+    },
+    {
+      "index": 56,
+      "text": "\u00bfen la calle de Hormuz?",
+      "target_sec": 4.56,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.06,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 57,
+      "text": "Bueno, estamos viendo un colapso de un",
+      "target_sec": 5.92,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.94,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 58,
+      "text": "suposici\u00f3n clave en la econom\u00eda y",
+      "target_sec": 6.72,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.42,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 59,
+      "text": "mercados energ\u00e9ticos. Y si Hormuz est\u00e1 cerrado",
+      "target_sec": 5.521,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.06,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 60,
+      "text": "por un mes, uno de los m\u00e1s importantes",
+      "target_sec": 6.64,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.18,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 61,
+      "text": "Hip\u00f3tesis b\u00e1sicas y c\u00f3mo la econom\u00eda",
+      "target_sec": 5.68,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.62,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 62,
+      "text": "trabajo, la econom\u00eda global trabaja y",
+      "target_sec": 3.76,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.1,
+      "speed_factor": 0.824,
+      "action": "accept"
+    },
+    {
+      "index": 63,
+      "text": "sobre seguridad habr\u00e1 colapsado.",
+      "target_sec": 4.48,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.9,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 64,
+      "text": "> Bob McN era un asesor de energ\u00eda",
+      "target_sec": 4.72,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.9,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 65,
+      "text": "Presidente George W. Bush durante el Iraq",
+      "target_sec": 5.44,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.94,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 66,
+      "text": "la guerra, que ahora asesora a clientes en petr\u00f3leo y",
+      "target_sec": 5.92,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.42,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 67,
+      "text": "mercados de gas. Nos dijo la interrupci\u00f3n.",
+      "target_sec": 5.519,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.74,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 68,
+      "text": "ya est\u00e1 teniendo impactos globales,",
+      "target_sec": 4.479,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.38,
+      "speed_factor": 0.755,
+      "action": "accept"
+    },
+    {
+      "index": 69,
+      "text": "incluido en Rusia.",
+      "target_sec": 4.401,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.82,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 70,
+      "text": "> Este conflicto y el aumento del precio del petr\u00f3leo",
+      "target_sec": 5.44,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.7,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 71,
+      "text": "ha hecho dos cosas para ayudar a Putin. Uno,",
+      "target_sec": 5.12,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.98,
+      "speed_factor": 0.777,
+      "action": "accept"
+    },
+    {
+      "index": 72,
+      "text": "se ha levantado el precio total de crudo",
+      "target_sec": 5.441,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.1,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 73,
+      "text": "aceite. Y segundo, se elimina que",
+      "target_sec": 6.32,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.06,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 74,
+      "text": "descuento, ese precio de la pena que ten\u00eda",
+      "target_sec": 5.839,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.02,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 75,
+      "text": "para pagar. Ahora todos quieren su aceite. Y",
+      "target_sec": 4.719,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 6.06,
+      "speed_factor": 1.25,
+      "action": "accept"
+    },
+    {
+      "index": 76,
+      "text": "S\u00ed, la Navidad lleg\u00f3 temprano para Putin. As\u00ed que...",
+      "target_sec": 4.56,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 5.06,
+      "speed_factor": 1.11,
+      "action": "accept"
+    },
+    {
+      "index": 77,
+      "text": "Putin puede beneficiarse temporalmente de",
+      "target_sec": 8.321,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.5,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 78,
+      "text": "un d\u00e9ficit presupuestario, pero a largo plazo si Ir\u00e1n",
+      "target_sec": 8.401,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.3,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 79,
+      "text": "Deja de ser el mejor patrocinador del mundo",
+      "target_sec": 5.44,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.62,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 80,
+      "text": "como el terror e incluso se convierte en un amigo",
+      "target_sec": 4.08,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.46,
+      "speed_factor": 1.093,
+      "action": "accept"
+    },
+    {
+      "index": 81,
+      "text": "de los Estados Unidos e Israel",
+      "target_sec": 3.36,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.94,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 82,
+      "text": "otros pa\u00edses, que espero y",
+      "target_sec": 4.4,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.18,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 83,
+      "text": "espera eventualmente, um que es un mal d\u00eda",
+      "target_sec": 4.879,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.62,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 84,
+      "text": "para Rusia. Un mal d\u00eda para Putin.",
+      "target_sec": 4.4,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.94,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 85,
+      "text": "Pero hoy",
+      "target_sec": 4.161,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.42,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 86,
+      "text": "Como las cosas est\u00e1n en la calle",
+      "target_sec": 4.48,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.54,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 87,
+      "text": "Hormuz, lo he visto decir que Rusia es",
+      "target_sec": 4.32,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.66,
+      "speed_factor": 0.847,
+      "action": "accept"
+    },
+    {
+      "index": 88,
+      "text": "el ganador claro en esta guerra.",
+      "target_sec": 4.48,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.38,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 89,
+      "text": "> Putin, ninguna pregunta, se est\u00e1 beneficiando",
+      "target_sec": 4.56,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.34,
+      "speed_factor": 0.952,
+      "action": "accept"
+    },
+    {
+      "index": 90,
+      "text": "mucho m\u00e1s ingresos ahora mismo. Y",
+      "target_sec": 4.24,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.9,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 91,
+      "text": "> Quiero preguntarte por China. Acerca de",
+      "target_sec": 5.039,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.74,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 92,
+      "text": "la mitad del aceite importado de China viene",
+      "target_sec": 5.04,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.54,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 93,
+      "text": "a trav\u00e9s del estrecho. \u00bfQu\u00e9 significa esto?",
+      "target_sec": 3.92,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.62,
+      "speed_factor": 0.923,
+      "action": "accept"
+    },
+    {
+      "index": 94,
+      "text": "por su econom\u00eda?",
+      "target_sec": 3.839,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.86,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 95,
+      "text": "> Esto es un verdadero golpe de est\u00f3mago para su",
+      "target_sec": 4.401,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.62,
+      "speed_factor": 0.823,
+      "action": "accept"
+    },
+    {
+      "index": 96,
+      "text": "econom\u00eda. China estaba recibiendo un encanto",
+      "target_sec": 6.64,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.42,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 97,
+      "text": "trato de Ir\u00e1n y uh y dependiendo",
+      "target_sec": 7.2,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.98,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 98,
+      "text": "fuertemente en el flujo de Hormuz. El pensamiento",
+      "target_sec": 4.961,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.98,
+      "speed_factor": 0.802,
+      "action": "accept"
+    },
+    {
+      "index": 99,
+      "text": "que podr\u00eda ser perturbado por un",
+      "target_sec": 4.16,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.66,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 100,
+      "text": "el per\u00edodo prolongado es devastador para el",
+      "target_sec": 5.52,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.26,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 101,
+      "text": "Econom\u00eda china. Ahora, tienen",
+      "target_sec": 5.519,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.06,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 102,
+      "text": "almacenado un mont\u00f3n de petr\u00f3leo y as\u00ed que est\u00e1n",
+      "target_sec": 3.44,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.02,
+      "speed_factor": 1.169,
+      "action": "accept"
+    },
+    {
+      "index": 103,
+      "text": "bastante bien suministrado en t\u00e9rminos de",
+      "target_sec": 3.44,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.18,
+      "speed_factor": 0.924,
+      "action": "accept"
+    },
+    {
+      "index": 104,
+      "text": "suministro f\u00edsico, pero el costo econ\u00f3mico",
+      "target_sec": 4.799,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.18,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 105,
+      "text": "Ser\u00e1 muy fuerte para ellos.",
+      "target_sec": 5.28,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.06,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 106,
+      "text": "> Aun as\u00ed, China sigue benefici\u00e1ndose",
+      "target_sec": 5.281,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.62,
+      "speed_factor": 0.875,
+      "action": "accept"
+    },
+    {
+      "index": 107,
+      "text": "su relaci\u00f3n con Ir\u00e1n. Matt Smith",
+      "target_sec": 4.96,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.3,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 108,
+      "text": "en Kepler nos dijo que Ir\u00e1n tiene",
+      "target_sec": 4.24,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.82,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 109,
+      "text": "sigui\u00f3 escabullindo el petr\u00f3leo del",
+      "target_sec": 4.081,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.98,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 110,
+      "text": "derecho. Dice que lo han hecho.",
+      "target_sec": 4.32,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.5,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 111,
+      "text": "apagando los transpondedores de su nave",
+      "target_sec": 4.4,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.1,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 112,
+      "text": "que muestran su ubicaci\u00f3n, pasando",
+      "target_sec": 4.479,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.86,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 113,
+      "text": "a trav\u00e9s de la recta sin detectar y",
+      "target_sec": 4.64,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.9,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 114,
+      "text": "enviar la mayor parte del crudo a bordo",
+      "target_sec": 4.961,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.3,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 115,
+      "text": "directamente a China. Ese aceite va a",
+      "target_sec": 2.96,
+      "stretch_factor": 1.126,
+      "raw_duration_s": 3.82,
+      "speed_factor": 1.146,
+      "action": "mild_stretch"
+    },
+    {
+      "index": 116,
+      "text": "China.",
+      "target_sec": 1.68,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 0.9,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 117,
+      "text": "> S\u00ed.",
+      "target_sec": 3.359,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.3,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 118,
+      "text": "> Hablemos de India. India",
+      "target_sec": 3.68,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.14,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 119,
+      "text": "bajo una presi\u00f3n significativa de EE.UU.",
+      "target_sec": 3.84,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.74,
+      "speed_factor": 1.234,
+      "action": "accept"
+    },
+    {
+      "index": 120,
+      "text": "para dejar de comprar petr\u00f3leo ruso. \u00bfQu\u00e9 pasa?",
+      "target_sec": 5.92,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.78,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 121,
+      "text": "\u00bfEl caso ahora? India en general es enorme",
+      "target_sec": 7.121,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.62,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 122,
+      "text": "depende de flujos de hormusa. Lo hace",
+      "target_sec": 5.759,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.1,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 123,
+      "text": "no tienen amplias acciones estrat\u00e9gicas como",
+      "target_sec": 4.48,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.18,
+      "speed_factor": 0.933,
+      "action": "accept"
+    },
+    {
+      "index": 124,
+      "text": "A China le gustan los Estados Unidos.",
+      "target_sec": 4.881,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.1,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 125,
+      "text": "India tambi\u00e9n requiere petr\u00f3leo licuado",
+      "target_sec": 5.76,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.54,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 126,
+      "text": "gas. Es combustible para cocinar. Las familias cocinan",
+      "target_sec": 5.2,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 5.1,
+      "speed_factor": 0.981,
+      "action": "accept"
+    },
+    {
+      "index": 127,
+      "text": "con gas licuado de GLP",
+      "target_sec": 3.519,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.54,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 128,
+      "text": "viene de Hormuz y no tienen",
+      "target_sec": 3.6,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.58,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 129,
+      "text": "grandes montones. As\u00ed que para India esto es un",
+      "target_sec": 3.84,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.9,
+      "speed_factor": 1.25,
+      "action": "accept"
+    },
+    {
+      "index": 130,
+      "text": "Crisis aguda.",
+      "target_sec": 3.36,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.26,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 131,
+      "text": "> En otras palabras, lo que est\u00e1 pasando en",
+      "target_sec": 4.241,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.74,
+      "speed_factor": 0.882,
+      "action": "accept"
+    },
+    {
+      "index": 132,
+      "text": "calle de Hormuz impacta todo el",
+      "target_sec": 5.6,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.78,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 133,
+      "text": "mundo. En los Estados Unidos, precios del gas",
+      "target_sec": 5.6,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.98,
+      "speed_factor": 0.889,
+      "action": "accept"
+    },
+    {
+      "index": 134,
+      "text": "ya han saltado por m\u00e1s de 65",
+      "target_sec": 5.199,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.66,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 135,
+      "text": "c\u00e9ntimos un gal\u00f3n desde que comenz\u00f3 la guerra.",
+      "target_sec": 5.28,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.26,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 136,
+      "text": "Y en Asia, que obtiene la mayor parte de su aceite",
+      "target_sec": 4.641,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.1,
+      "speed_factor": 0.883,
+      "action": "accept"
+    },
+    {
+      "index": 137,
+      "text": "a trav\u00e9s de la recta, pa\u00edses como",
+      "target_sec": 5.439,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.9,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 138,
+      "text": "Tailandia, el Pakist\u00e1n y Bangladesh son",
+      "target_sec": 5.6,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.54,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 139,
+      "text": "ya se trata de la escasez de combustible y",
+      "target_sec": 4.72,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.5,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 140,
+      "text": "l\u00edneas largas en estaciones de gas como conductores",
+      "target_sec": 5.68,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.02,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 141,
+      "text": "Trata de rellenar. Jet y diesel",
+      "target_sec": 7.201,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.9,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 142,
+      "text": "Los precios tambi\u00e9n han aumentado, un 25%.",
+      "target_sec": 6.56,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.06,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 143,
+      "text": "Y como resultado, billetes de avi\u00f3n m\u00e1s altos",
+      "target_sec": 4.959,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.66,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 144,
+      "text": "y se espera que los precios de los supermercados",
+      "target_sec": 4.0,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.54,
+      "speed_factor": 0.885,
+      "action": "accept"
+    },
+    {
+      "index": 145,
+      "text": "Sigue.",
+      "target_sec": 3.201,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 0.82,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 146,
+      "text": "D\u00e1melo directamente. \u00bfQu\u00e9 es lo",
+      "target_sec": 3.84,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.62,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 147,
+      "text": "peor escenario de caso que usted es",
+      "target_sec": 3.359,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.18,
+      "speed_factor": 0.947,
+      "action": "accept"
+    },
+    {
+      "index": 148,
+      "text": "\u00bfPredecir aqu\u00ed?",
+      "target_sec": 3.679,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.46,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 149,
+      "text": "> Estoy prediciendo que esto va a conseguir",
+      "target_sec": 4.401,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.58,
+      "speed_factor": 0.813,
+      "action": "accept"
+    },
+    {
+      "index": 150,
+      "text": "peor antes de que mejore. Esto es",
+      "target_sec": 3.201,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.06,
+      "speed_factor": 0.956,
+      "action": "accept"
+    },
+    {
+      "index": 151,
+      "text": "va a ser m\u00e1s largo y m\u00e1s costoso",
+      "target_sec": 2.879,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.18,
+      "speed_factor": 1.105,
+      "action": "accept"
+    },
+    {
+      "index": 152,
+      "text": "conflicto que casi todo el mundo",
+      "target_sec": 2.48,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.3,
+      "speed_factor": 0.927,
+      "action": "accept"
+    },
+    {
+      "index": 153,
+      "text": "esperado.",
+      "target_sec": 3.841,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 0.94,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 154,
+      "text": "> Usted ha dicho que un cierre prolongado",
+      "target_sec": 4.8,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.78,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 155,
+      "text": "de la calle de Hormuz es una garant\u00eda",
+      "target_sec": 4.08,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.74,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 156,
+      "text": "recesi\u00f3n mundial. \u00bfSigues esperando?",
+      "target_sec": 2.48,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.9,
+      "speed_factor": 1.169,
+      "action": "accept"
+    },
+    {
+      "index": 157,
+      "text": "\u00bfEso?",
+      "target_sec": 2.56,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 0.58,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 158,
+      "text": "> Mira, s\u00ed. la econom\u00eda mundial no puede",
+      "target_sec": 5.759,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.74,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 159,
+      "text": "crecer sin el 20% de su suministro energ\u00e9tico.",
+      "target_sec": 4.48,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.38,
+      "speed_factor": 0.978,
+      "action": "accept"
+    },
+    {
+      "index": 160,
+      "text": "Per\u00edodo.",
+      "target_sec": 4.401,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.22,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 161,
+      "text": "> Raramente reconocemos la historia en la",
+      "target_sec": 5.199,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.82,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 162,
+      "text": "Haciendo. Pero es eso lo que somos",
+      "target_sec": 3.52,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.38,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 163,
+      "text": "presenciar ahora mismo? Estamos sentados",
+      "target_sec": 5.681,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.58,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 164,
+      "text": "el medio de un tiempo sin precedentes.",
+      "target_sec": 7.68,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.98,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 165,
+      "text": "> S\u00ed, estamos experimentando un justo como un",
+      "target_sec": 7.36,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 3.58,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 166,
+      "text": "materia f\u00e1ctica la mayor energ\u00eda",
+      "target_sec": 6.72,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.82,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 167,
+      "text": "trastorno en la historia.",
+      "target_sec": 6.32,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 1.98,
+      "speed_factor": 1.0,
+      "action": "accept"
+    },
+    {
+      "index": 168,
+      "text": "Tenemos que esperar y rezar para que",
+      "target_sec": 7.72,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 4.62,
+      "speed_factor": 0.75,
+      "action": "accept"
+    },
+    {
+      "index": 169,
+      "text": "No contin\u00faa por mucho tiempo.",
+      "target_sec": 4.52,
+      "stretch_factor": 1.0,
+      "raw_duration_s": 2.26,
+      "speed_factor": 0.75,
+      "action": "accept"
+    }
+  ]
+}
